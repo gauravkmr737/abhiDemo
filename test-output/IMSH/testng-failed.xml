@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [IMSH]" parallel="methods">
+  <test thread-count="3" name="IMSHTest(failed)" parallel="methods">
+    <classes>
+      <class name="screeTest.DashboardTest">
+        <methods>
+          <include name="onDash"/>
+          <include name="onClickCart"/>
+        </methods>
+      </class> <!-- screeTest.DashboardTest -->
+    </classes>
+  </test> <!-- IMSHTest(failed) -->
+</suite> <!-- Failed suite [IMSH] -->
